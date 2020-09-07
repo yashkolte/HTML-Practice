@@ -23,11 +23,39 @@
             text-decoration: none;
             color:white;
         }
+
+        .navbar li a:hover{
+            padding: 3px 3px;
+            text-decoration: none;
+            color:red;
+        }
         .search{
             float: right;
             color: white;
             padding: 12px 75px;
         }
+        
+        .navbar input{
+            border: 2px solid rgba(3, 3, 3, 0.664);
+            border-radius: 3px;
+            padding: 3px 17px;
+        }
+        .navbar input:hover{
+            border: 2px solid rgba(207, 17, 17, 0.664);
+            border-radius: 3px;
+            padding: 3px 17px;
+        }
+        .btn{
+            border: 2px solid rgba(3, 3, 3, 0.664);
+            border-radius: 3px;
+            padding: 3px 17px;
+        }
+        .btn:hover{
+            border: 2px solid rgba(207, 17, 17, 0.664);
+            border-radius: 3px;
+            padding: 3px 17px;
+        }
+        
     </style>
 </head>
 <body>
@@ -39,7 +67,8 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <div class="search">
-                    <input type="text" name="search" id="search">
+                    <input type="text" name="search" id="search" placeholder="Search this Website">
+                    <button class="btn">Search</button>
                 </div>
             </ul>
         </nav>
