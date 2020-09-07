@@ -1,4 +1,4 @@
-# Practice-Code-HTML
+# Learn-Code-HTML
 <pre>
 
 Bolter palte - template {! for html template in VS code}
@@ -18,5 +18,23 @@ Id is a unique name use to identify specify target eg- div, box while class is a
 
 { . is for class } , { # is for id }
 
+Semantic elements provide the position of element for example header, footer, nav, etc whereas non semantic elements are div, h1, img, etc.
+
 Html Entites { Reserved charactor i.e <, >} we use internet for mor symbol.
+
+3 Type of CSS:-
+Inline CSS
+Internal CSS
+External CSS 
+        For link to css in html <link ref="stylesheet" href="CSS.css">
+    {HTML me Jo baad me ha vo he pehle show hoga}
+
+!important is use to give priority to CSS 
+
+Always use margin and padding for alignment
+
+For use google font copy css link from google font site and paste to your site
+
+pseudo selector is use for change linnk , buttton colour etc.
+
 </pre>
