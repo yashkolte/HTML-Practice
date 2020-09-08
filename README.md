@@ -37,4 +37,8 @@ For use google font copy css link from google font site and paste to your site
 
 pseudo selector is use for change linnk , buttton colour etc.
 
+CSS Position: ststic (default), relative, absolute, fixed, sticky {PositionProperty.html imp}
+
+background-repeat : no-repeat 
+
 </pre>

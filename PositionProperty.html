@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position absolute</title>
+    <style>
+        .container{
+            background-color: lightcoral;
+            height: 22229px;;
+        }
+        /* CSS Position: ststic (default), relative, absolute, fixed, sticky */
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+        }
+        #box3{
+            /* relative:relative to its normal position and will leave a gap at its normal position */
+            /* position:relative; */
+          
+            /* absolute:relative to position of its first parent */
+            /* position: absolute; */
+            
+            /* fixed: fixed position while scrolling the page */
+            /* position:fixed;
+            right: 4px; */
+
+            /* top: 34px;
+            left: 30px; */
+
+            /* sticky: it is use to stick cointain in page */
+            position: sticky;
+            top:3px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class='box' id="box1">1</div>
+        <div class='box' id="box2">2</div>
+        <div class='box' id="box3">3</div>
+        <div class='box' id="box4">4</div>
+    </div>
+</body>
+</html>
