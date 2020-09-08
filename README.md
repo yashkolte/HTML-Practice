@@ -41,4 +41,16 @@ CSS Position: ststic (default), relative, absolute, fixed, sticky {PositionPrope
 
 background-repeat : no-repeat 
 
+z-index: will only work for position: relative, absolute, fixed, or sticky
+
+div.item#item-$*6
+
+justify-content: center;   : to justify in center
+justify-content: space-between;
+justify-content: space-evenly;
+justify-content: space-around;
+
+align-item: center;
+
+
 </pre>
