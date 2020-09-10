@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute & nth child Psedo selector</title>
+    <style>
+        .container{
+            margin: 25px;
+        }
+        input{
+            display: block;
+        }
+        input[type='text']{
+            padding: 2px;
+            border: 2px solid green;
+        }
+        a[target]{
+            color:green;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        li:nth-child(3){    /*This will change li 3rd number*/
+            color: cyan;
+        }
+        li:nth-child(2n+0){    /*This will change li 3rd number*/
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h3>Attribute & nth child Psedo selector</h3>
+    <div class="container">
+        <a href="http://google.com" target="_blank">Go To Google</a>
+        <form action=" class="form-control">
+            <input type="text" placeholder="Enter your Name">
+            <input type="password" placeholder="Enter your Password">
+            <input type="submit" value="Submit">
+        </form>
+        <ul>
+            <li class="item" id="item-1">Item-1</li>
+            <li class="item" id="item-2">Item-2</li>
+            <li class="item" id="item-3">Item-3</li>
+            <li class="item" id="item-4">Item-4</li>
+        </ul>
+    </div>
+</body>
+</html>

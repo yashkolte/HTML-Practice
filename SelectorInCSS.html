@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More On Selector In CSS</title>
+    <style>
+        h1{
+            background-color: tomato;
+        }
+        div li{
+            color: orange;
+            background-color: green;
+            font-weight: bold;
+        }
+        div > p{  /* It applies under the div only on first p */
+            color:green;
+            background-color: coral;
+        }
+        div + p{   /* It applies next to div */
+            color:black;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <H1> This is selector in css</H1>
+    <div class="row">
+        <p>This is paragraph</p>
+        <ul>
+            <li class="item"><p>This is paragraph inside li</p></li>
+            <li class="item"><p>This is paragraph inside li</p></li>
+            <p>This is paragraph</p>
+        </ul>
+    </div>
+    <p>This is paragraph</p>
+</body>
+</html>
