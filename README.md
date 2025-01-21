@@ -1,70 +1,99 @@
-# Learn-Code-HTML
-<pre>
+# HTML Practice Repository
 
-Bolter palte - template {! for html template in VS code}
-For multiple cursor in VS code - Alt 
+Welcome to the **HTML Practice Repository**! This repository contains various HTML and CSS practice examples that cover essential topics to help you master web development fundamentals.
 
-To open in new tab of web browser - target = "_blank".
+## Directory Structure
 
-[alt] is to give alternetive image
+```
+├── README.md
+├── Alignment.html
+├── BeforeAfterPseudo.html
+├── BorderAndBackground.html
+├── CSS.css
+├── CSSBoxModel.html
+├── CascadingStyleSheet.html
+├── ChromeDeveloperTool.html
+├── ColorInCSS.html
+├── DisplayProperty.html
+├── Flexbox.html
+├── HTMLEntities.html
+├── IdAndClasses.html
+├── InlineAndBlockElement.html
+├── IntroHtml.html
+├── LinkAndImages.html
+├── ListAndTable.html
+├── MediaQueries.html
+├── NavMenu.html
+├── PositionProperty.html
+├── PseudoSelector.html
+├── SelectorInCSS.html
+├── SemanticElements.html
+├── StylingLinkButton.html
+└── VisibilityAndZindex.html
+```
 
-Source.unsplash.com - It provide image {We can use random image}.
+## How to Use This Repository
 
-paragraph take complete line while span doesn"t.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yashkolte/html-practice.git
+   cd yashkolte-html-practice
+   ```
 
-Inline Elements are those who contain complete line while Block Element doesn't.
+2. **Open Files in Your Browser**
+   - Navigate to the folder where you cloned the repository.
+   - Open any `.html` file in your favorite browser to view the example.
 
-Id is a unique name use to identify specify target eg- div, box while class is a group.
+3. **Edit and Experiment**
+   - Open the files in a text editor or an IDE like Visual Studio Code.
+   - Modify the code and refresh the browser to see the changes.
 
-{ . is for class } , { # is for id }
+## Topics Covered
 
-Semantic elements provide the position of element for example header, footer, nav, etc whereas non semantic elements are div, h1, img, etc.
+### 1. **HTML Basics**
+   - `IntroHtml.html`: Introduction to HTML structure.
+   - `IdAndClasses.html`: Using IDs and classes in HTML.
+   - `SemanticElements.html`: Semantic HTML elements.
 
-Html Entites { Reserved charactor i.e <, >} we use internet for mor symbol.
+### 2. **CSS Basics**
+   - `CSS.css`: External stylesheet example.
+   - `SelectorInCSS.html`: CSS selectors overview.
+   - `ColorInCSS.html`: How to use colors in CSS.
 
-3 Type of CSS:-
-Inline CSS
-Internal CSS
-External CSS 
-        For link to css in html <link ref="stylesheet" href="CSS.css">
-    {HTML me Jo baad me ha vo he pehle show hoga}
+### 3. **Positioning and Layout**
+   - `PositionProperty.html`: Understanding CSS position property.
+   - `Flexbox.html`: CSS Flexbox layout examples.
+   - `CSSBoxModel.html`: CSS box model explained.
 
-!important is use to give priority to CSS 
+### 4. **Interactive Elements**
+   - `StylingLinkButton.html`: Styling links and buttons.
+   - `NavMenu.html`: Creating a navigation menu.
 
-Always use margin and padding for alignment
+### 5. **Advanced Topics**
+   - `MediaQueries.html`: Responsive design using media queries.
+   - `BeforeAfterPseudo.html`: Using `::before` and `::after` pseudo-elements.
+   - `VisibilityAndZindex.html`: Controlling visibility and z-index in CSS.
 
-For use google font copy css link from google font site and paste to your site
+## Prerequisites
 
-pseudo selector is use for change linnk , buttton colour etc.
+- Basic knowledge of HTML and CSS.
+- A text editor or IDE (e.g., Visual Studio Code).
+- A modern web browser for testing.
 
-CSS Position: ststic (default), relative, absolute, fixed, sticky {PositionProperty.html imp}
+## Contributing
 
-background-repeat : no-repeat 
+Feel free to contribute to this repository by adding more examples, improving the existing ones, or fixing issues. To contribute:
 
-z-index: will only work for position: relative, absolute, fixed, or sticky
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Commit your changes and push them to your fork.
+4. Create a pull request to this repository.
 
-div.item#item-$*6
+## License
 
-justify-content: center;   : to justify in center
-justify-content: space-between;
-justify-content: space-evenly;
-justify-content: space-around;
+This repository is licensed under the [MIT License](LICENSE).
 
-align-item: center;
+---
 
+Happy Coding! 🎉
 
-For background -
- header::before{
-            background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
-            content: "";
-            position: absolute;
-            top:0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            opacity: 0.3;
-        }
-
-
-</pre>
